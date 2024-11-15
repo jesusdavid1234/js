@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="stylos.css">
+</head>
+
+<body>
+
+    <div class="formulario-agregar">
+        <h2>Agregar Nueva Tarea</h2>
+        <input type="text" id="nombre" placeholder="Descripción de la tarea"
+            style="display: block; width: 100%; margin-bottom: 10px;">
+        <label>
+            <input type="radio" name="importancia" id="inportante" value="importante"> Importante
+        </label>
+        <label>
+            <input type="radio" name="importancia" id="noinportante" value="noImportante"> No Importante
+        </label>
+        <br><br>
+        <button onclick="agregarTarea()">Agregar Tarea</button>
+    </div>
+
+    <div class="contenedor-tareas-grande">
+        <div id="columimpor" class="columna">
+            <h2>Importantes</h2>
+        </div>
+        <div id="columnoimpor" class="columna">
+            <h2>No Importantes</h2>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

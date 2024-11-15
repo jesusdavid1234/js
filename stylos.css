@@ -1,0 +1,41 @@
+.formulario-agregar {
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contenedor-tareas-grande {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.columna {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.importante {
+    color: red;
+    font-weight: bold;
+}
+
+.realizada {
+    text-decoration: line-through;
+}
